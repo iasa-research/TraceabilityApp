@@ -7,7 +7,7 @@
 
 3. Make sure the global database iasa-global is running (the app does not use the database directly but if you call the JavaToGraph-Traceability component to update the project data (Git Import button, upper right), it needs iasa-global)
 
-**IMPORTANT:** An instance of the JavaToGraph-Traceability app as well as the iasa-global database are running on the IASA server! Please ask the iasa research team members for usage instructions, if you don't want to deploy these to services by yourself! To reach them, you need to be in the vpn network. 
+**IMPORTANT:** An instance of the JavaToGraph-Traceability app as well as the iasa-global database are running on the IASA server! Please ask the iasa research team members for usage instructions, if you don't want to deploy these two services by yourself! To reach them, you need to be in the vpn network. 
 
 ## Running the app without the updateProject functionality 
 If your neo4j database is already filled, you can also use the app without the JavaToGraph-Traceability app and without the global database iasa-global running. However, you may be analysing an old state of the architecture then, if new commits and pushs were made after the project data was loaded in the neo4j database. 
