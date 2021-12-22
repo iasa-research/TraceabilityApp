@@ -1,0 +1,12 @@
+{
+  "/api": {
+    // path to backend server
+    "target": "http://localhost:3010",
+    "secure": false
+  },
+  "/updateproject": {
+    // path to rest interface of JavaToGraph component
+    "target": "http://localhost:5000",
+    "secure": false
+  }
+}
